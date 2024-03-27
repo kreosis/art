@@ -1,0 +1,468 @@
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#FlexGrid1
+{
+   display: grid;
+   background-image: radial-gradient(circle, #DA70D6 0%, #9400D3 100%);
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px auto 100px;
+   grid-template-areas:
+      "header header header header"
+      "nav main main sidebar"
+      "footer footer footer footer";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .nav
+{
+   display: flex;
+   grid-area: nav;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: flex;
+   grid-area: main;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .sidebar
+{
+   display: flex;
+   grid-area: sidebar;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-end;
+   align-content: flex-end;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   grid-area: footer;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+#TextArt1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_TextArt1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Button1
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
+   background-color: #9932CC;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button1:focus
+{
+   outline: 0;
+}
+#Button2
+{
+   border: 1px solid #000000;
+   border-radius: 20px;
+   background-color: #9932CC;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button2:focus
+{
+   outline: 0;
+}
+#Button2
+{
+   display: inline-block;
+   width: 244px;
+   height: 39px;
+   z-index: 3;
+}
+#Button1
+{
+   display: inline-block;
+   width: 244px;
+   height: 39px;
+   z-index: 2;
+}
+#TextArt1
+{
+   width: 341px;
+   height: 71px;
+}
+#wb_TextArt1
+{
+   display: inline-block;
+   width: 341px;
+   height: 71px;
+   z-index: 0;
+   position: relative;
+}
+@media only screen and (min-width: 1024px)
+{
+body
+{
+   background-color: #000000;
+   background-image: none;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+   background-image: radial-gradient(circle, #9370DB 0%, #9400D3 100%);
+}
+#FlexGrid1
+{
+   height: auto;
+}
+#FlexGrid1
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px auto 100px;
+   grid-template-areas:
+      "header header header header"
+      "nav main main sidebar"
+      "footer footer footer footer";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexGrid1 .sidebar
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: flex-end;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: flex-start;
+}
+#wb_TextArt1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#Button1
+{
+   width: 244px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button2
+{
+   width: 244px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+}
+@media only screen and (max-width: 1023px)
+{
+body
+{
+   background-color: #000000;
+   background-image: none;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+   background-image: radial-gradient(circle, #9370DB 0%, #9400D3 100%);
+}
+#FlexGrid1
+{
+   height: auto;
+}
+#FlexGrid1
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px auto 100px;
+   grid-template-areas:
+      "header header header header"
+      "nav main main sidebar"
+      "footer footer footer footer";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexGrid1 .sidebar
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: flex-end;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: flex-start;
+}
+#wb_TextArt1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#Button1
+{
+   width: 244px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button2
+{
+   width: 244px;
+   height: 39px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+}
